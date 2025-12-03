@@ -56,6 +56,7 @@ class OrderService extends ResourceService
         $this->resource->total_price_with_tax = $this->calculateTotalPriceWithTax($totalPrice);
         $this->resource->item_total_count = $totalItemCount;
         $this->resource->product_count = $productCount;
+        $this->resource->save();
 
         return $this->resource;
     }

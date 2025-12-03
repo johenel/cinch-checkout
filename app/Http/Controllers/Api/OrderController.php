@@ -7,7 +7,6 @@ use App\Http\Requests\Order\StoreRequest;
 use App\Models\Product;
 use App\Services\OrderService;
 use App\Services\ProductService;
-use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Log;
 
 class OrderController extends Controller
